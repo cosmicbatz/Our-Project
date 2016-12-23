@@ -1,7 +1,31 @@
-TESTTTTTTT
 #include <iostream>
-A CHANGE MADE ON MY LAPTOP - LIAM
+using namespace std;
 
+// This is a function prototype:
+void Example(int Var1, int Var2);
+
+
+int main(){
+// initializing two variables
+int Num1 = 0;
+int Num2 = 0;
+
+// this is a pointer
+int* Pointer = &Num1;
+Pointer += 5;
+
+
+cout << "Pointer value is: " << *Pointer << endl;
+return 0;
+}
+
+
+// This is the function being defined:
+void Example(int Var1, int Var2) {
+
+
+
+}
 
 
 
